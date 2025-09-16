@@ -1,99 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potato City Prices</title>
     <link rel="icon" type="image/x-icon" href="../images/page_icon.webp">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Potato City Prices</h1>
-    <h2>Local Market and Services</h2>
-    
-    <nav>
-    <a href="./index.html">Home</a> | 
-    <a href="./information.html">Information</a> | 
-    <a href="./prices.html">Prices</a> | 
-    <a href="./contact.html">Contact</a>
-    </nav>
+    <header>
+        <div class="header-container">
+            <a href="./index.html" class="logo">Potato City</a>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./information.html">Information</a>
+                <a href="./prices.html" class="active">Prices</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <h2>Market Prices</h2>
-    <p>Current prices at the Central Market:</p>
-    
-    <table border="1">
-        <tr>
-            <th>Product</th>
-            <th>Size</th>
-            <th>Price (PC)</th>
-        </tr>
-        <tr>
-            <td>Russet Potatoes</td>
-            <td>Large</td>
-            <td>3.50</td>
-        </tr>
-        <tr>
-            <td>Sweet Potatoes</td>
-            <td>Medium</td>
-            <td>4.00</td>
-        </tr>
-        <tr>
-            <td>Baby Potatoes</td>
-            <td>Small Pack</td>
-            <td>5.00</td>
-        </tr>
-        <tr>
-            <td>Yukon Gold</td>
-            <td>Large</td>
-            <td>4.50</td>
-        </tr>
-    </table>
-    
-    <img src="../images/central_market.png" 
-         alt="Central Market" width="250" height="310">
-    
-    <h2>City Services</h2>
-    <p>Municipal service fees:</p>
-    
-    <table border="1">
-        <tr>
-            <th>Service</th>
-            <th>Resident Fee (PC)</th>
-            <th>Non-Resident Fee (PC)</th>
-        </tr>
-        <tr>
-            <td>Building Permit</td>
-            <td>50.00</td>
-            <td>75.00</td>
-        </tr>
-        <tr>
-            <td>Business License</td>
-            <td>100.00</td>
-            <td>150.00</td>
-        </tr>
-        <tr>
-            <td>Library Card</td>
-            <td>Free</td>
-            <td>10.00</td>
-        </tr>
-        <tr>
-            <td>Park Reservation</td>
-            <td>15.00</td>
-            <td>25.00</td>
-        </tr>
-    </table>
-    
-    <img src="../images/city_hall.png" 
-         alt="City Hall" width="250" height="310">
-    
-    <p>
-        Payment accepted: Potato Coins (PC) only<br>
-        Office hours: Monday-Friday 9:00 AM - 5:00 PM
-    </p>
+    <main>
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1>Potato City Prices</h1>
+                <h2>Local Market and Municipal Services</h2>
+            </section>
 
-    <p>
-    Back to <a href="./index.html">News</a> | 
-    Learn more at <a href="./information.html">Information</a> | 
-    <a href="./contact.html">Contact Us</a>
-    </p>
+            <!-- Market Prices Section -->
+            <section class="table-container">
+                <h3 style="text-align: center; color: #2c5530; margin-bottom: 1.5rem; font-size: 1.8rem;">
+                    🏪 Central Market Prices
+                </h3>
+                <p style="text-align: center; margin-bottom: 2rem; color: #666;">
+                    Current prices at our Central Market - Updated daily
+                </p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>🥔 Product</th>
+                            <th>📏 Size</th>
+                            <th>💰 Price (PC)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Russet Potatoes</strong></td>
+                            <td>Large</td>
+                            <td><span style="color: #4CAF50; font-weight: bold;">3.50</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sweet Potatoes</strong></td>
+                            <td>Medium</td>
+                            <td><span style="color: #4CAF50; font-weight: bold;">4.00</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Baby Potatoes</strong></td>
+                            <td>Small Pack</td>
+                            <td><span style="color: #4CAF50; font-weight: bold;">5.00</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Yukon Gold</strong></td>
+                            <td>Large</td>
+                            <td><span style="color: #4CAF50; font-weight: bold;">4.50</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <img src="../images/central_market.png" 
+                         alt="Central Market" 
+                         width="250" 
+                         height="310"
+                         style="max-width: 400px; width: 100%; height: auto; border-radius: 15px;">
+                </div>
+            </section>
+
+            <!-- City Services Section -->
+            <section class="table-container">
+                <h3 style="text-align: center; color: #2c5530; margin-bottom: 1.5rem; font-size: 1.8rem;">
+                    🏛️ Municipal Service Fees
+                </h3>
+                <p style="text-align: center; margin-bottom: 2rem; color: #666;">
+                    Official fees for city services and permits
+                </p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>🛠️ Service</th>
+                            <th>🏠 Resident Fee (PC)</th>
+                            <th>🚌 Non-Resident Fee (PC)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Building Permit</strong></td>
+                            <td><span style="color: #4CAF50; font-weight: bold;">50.00</span></td>
+                            <td><span style="color: #ff9800; font-weight: bold;">75.00</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Business License</strong></td>
+                            <td><span style="color: #4CAF50; font-weight: bold;">100.00</span></td>
+                            <td><span style="color: #ff9800; font-weight: bold;">150.00</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Library Card</strong></td>
+                            <td><span style="color: #2196F3; font-weight: bold;">Free</span></td>
+                            <td><span style="color: #ff9800; font-weight: bold;">10.00</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Park Reservation</strong></td>
+                            <td><span style="color: #4CAF50; font-weight: bold;">15.00</span></td>
+                            <td><span style="color: #ff9800; font-weight: bold;">25.00</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <img src="../images/city_hall.png" 
+                         alt="City Hall" 
+                         width="250" 
+                         height="310"
+                         style="max-width: 400px; width: 100%; height: auto; border-radius: 15px;">
+                </div>
+            </section>
+
+            <!-- Payment Info -->
+            <section class="info-section">
+                <h2>💳 Payment Information</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🪙</div>
+                        <h4 style="color: white; margin-bottom: 0.5rem;">Accepted Currency</h4>
+                        <p style="color: rgba(255,255,255,0.9);">Potato Coins (PC) only</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">⏰</div>
+                        <h4 style="color: white; margin-bottom: 0.5rem;">Office Hours</h4>
+                        <p style="color: rgba(255,255,255,0.9);">Monday-Friday<br>9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">📍</div>
+                        <h4 style="color: white; margin-bottom: 0.5rem;">Location</h4>
+                        <p style="color: rgba(255,255,255,0.9);">123 Underground Avenue<br>Central District</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Special Offers -->
+            <section class="card">
+                <h3>🎉 Special Offers & Discounts</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                    <div style="background: rgba(76, 175, 80, 0.1); padding: 1.5rem; border-radius: 15px; border-left: 4px solid #4CAF50;">
+                        <h4 style="color: #2c5530; margin-bottom: 0.5rem;">🏠 Resident Discount</h4>
+                        <p>Save up to 33% on all municipal services with valid residency proof!</p>
+                    </div>
+                    <div style="background: rgba(255, 193, 7, 0.1); padding: 1.5rem; border-radius: 15px; border-left: 4px solid #FFC107;">
+                        <h4 style="color: #2c5530; margin-bottom: 0.5rem;">📚 Student Special</h4>
+                        <p>Free library cards for all students enrolled in city schools.</p>
+                    </div>
+                    <div style="background: rgba(33, 150, 243, 0.1); padding: 1.5rem; border-radius: 15px; border-left: 4px solid #2196F3;">
+                        <h4 style="color: #2c5530; margin-bottom: 0.5rem;">👨‍👩‍👧‍👦 Family Package</h4>
+                        <p>Bulk pricing available for families buying market produce.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Navigation Links -->
+            <section class="nav-links">
+                <a href="./index.html">📰 Back to News</a>
+                <a href="./information.html">📖 Learn more about our city</a>
+                <a href="./contact.html">📞 Contact Us for Pricing</a>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

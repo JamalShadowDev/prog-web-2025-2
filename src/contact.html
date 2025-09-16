@@ -1,92 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potato City Contact</title>
     <link rel="icon" type="image/x-icon" href="../images/page_icon.webp">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Potato City Contact</h1>
-    <h2>Get in Touch with City Hall</h2>
-    
-    <nav>
-        <a href="./index.html">Home</a> | 
-        <a href="./information.html">Information</a> | 
-        <a href="./prices.html">Prices</a> | 
-        <a href="./contact.html">Contact</a>
-    </nav>
-    
-    <h2>Contact Form</h2>
-    <p>
-        Have questions about our city services or want to report an issue? 
-        Fill out the form below and we'll get back to you within 2 business days.
-    </p>
-    
-    <img src="../images/contact.png" 
-         alt="Contact City Hall" width="400" height="100">
-    
-    <form>
-        <p>
-            <label for="name">Full Name:</label><br>
-            <input type="text" id="name" name="name" required>
-        </p>
-        
-        <p>
-            <label for="email">Email Address:</label><br>
-            <input type="email" id="email" name="email" required>
-        </p>
-        
-        <p>
-            <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone">
-        </p>
-        
-        <p>
-            <label for="district">District:</label><br>
-            <select id="district" name="district">
-                <option value="">Select your district</option>
-                <option value="french-fry">French Fry District</option>
-                <option value="mashed">Mashed Potato Heights</option>
-                <option value="sweet">Sweet Potato Suburbs</option>
-                <option value="chip">Chip Valley</option>
-                <option value="crispy">Crispy Hills</option>
-            </select>
-        </p>
-        
-        <p>
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject" required>
-        </p>
-        
-        <p>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="50" required></textarea>
-        </p>
-        
-        <p>
-            <button type="submit">Send Message</button>
-            <button type="reset">Clear Form</button>
-        </p>
-    </form>
-    
-    <h2>Other Ways to Reach Us</h2>
-    <p>
-        <strong>City Hall Address:</strong><br>
-        123 Underground Avenue<br>
-        Potato City, PC 12345
-    </p>
-    
-    <p>
-        <strong>Phone:</strong> (555) POTATO<br>
-        <strong>Email:</strong> info@potatocity.gov<br>
-        <strong>Office Hours:</strong> Monday-Friday 9:00 AM - 5:00 PM
-    </p>
-    
-    <p>
-        Back to <a href="./index.html">News</a> | 
-        Learn more at <a href="./information.html">Information</a> | 
-        Check <a href="./prices.html">Local Prices</a>
-    </p>
+    <header>
+        <div class="header-container">
+            <a href="./index.html" class="logo">Potato City</a>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./information.html">Information</a>
+                <a href="./prices.html">Prices</a>
+                <a href="./contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1>Contact Potato City</h1>
+                <h2>Get in Touch with City Hall</h2>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="form-container">
+                <h3 style="text-align: center; color: #2c5530; margin-bottom: 1rem; font-size: 1.8rem;">
+                    📝 Contact Form
+                </h3>
+                <p style="text-align: center; margin-bottom: 2rem; color: #666;">
+                    Have questions about our city services or want to report an issue? 
+                    Fill out the form below and we'll get back to you within 2 business days.
+                </p>
+                
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <img src="../images/contact.png" 
+                         alt="Contact City Hall" 
+                         width="400" 
+                         height="100"
+                         style="max-width: 500px; width: 100%; height: auto; border-radius: 15px;">
+                </div>
+                
+                <form>
+                    <div class="form-group">
+                        <label for="name">👤 Full Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">📧 Email Address:</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">📱 Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="district">🏘️ District:</label>
+                        <select id="district" name="district">
+                            <option value="">Select your district</option>
+                            <option value="french-fry">🍟 French Fry District</option>
+                            <option value="mashed">🥔 Mashed Potato Heights</option>
+                            <option value="sweet">🍠 Sweet Potato Suburbs</option>
+                            <option value="chip">🥨 Chip Valley</option>
+                            <option value="crispy">✨ Crispy Hills</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">📋 Subject:</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Brief description of your inquiry">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">💬 Message:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Please provide details about your question or concern..."></textarea>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <button type="submit">📤 Send Message</button>
+                        <button type="reset">🗑️ Clear Form</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Contact Information Grid -->
+            <section class="info-grid">
+                <div class="card">
+                    <h3>🏛️ City Hall Address</h3>
+                    <div style="font-size: 1.1rem; line-height: 1.8;">
+                        <p><strong>📍 Address:</strong><br>
+                        123 Underground Avenue<br>
+                        Potato City, PC 12345</p>
+                        
+                        <p><strong>📞 Phone:</strong> (555) POTATO</p>
+                        <p><strong>📧 Email:</strong> info@potatocity.gov</p>
+                        <p><strong>⏰ Office Hours:</strong><br>
+                        Monday-Friday: 9:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🚨 Emergency Contacts</h3>
+                    <div style="font-size: 1.1rem; line-height: 1.8;">
+                        <p><strong>🚑 Emergency Services:</strong> 911</p>
+                        <p><strong>🚒 Fire Department:</strong> (555) FIRE-PC</p>
+                        <p><strong>👮 Police Department:</strong> (555) SAFE-PC</p>
+                        <p><strong>🏥 City Hospital:</strong> (555) HEAL-PC</p>
+                        <p><strong>⚡ Utilities Emergency:</strong> (555) POWER-PC</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Department Contacts -->
+            <section class="table-container">
+                <h3 style="text-align: center; color: #2c5530; margin-bottom: 1.5rem; font-size: 1.8rem;">
+                    🏢 Department Directory
+                </h3>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>🏛️ Department</th>
+                            <th>📞 Phone</th>
+                            <th>📧 Email</th>
+                            <th>⏰ Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Mayor's Office</strong></td>
+                            <td>(555) MAYOR-1</td>
+                            <td>mayor@potatocity.gov</td>
+                            <td>9:00 AM - 5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Public Works</strong></td>
+                            <td>(555) WORKS-1</td>
+                            <td>publicworks@potatocity.gov</td>
+                            <td>24/7 Emergency</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Parks & Recreation</strong></td>
+                            <td>(555) PARKS-1</td>
+                            <td>parks@potatocity.gov</td>
+                            <td>8:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Building & Permits</strong></td>
+                            <td>(555) BUILD-1</td>
+                            <td>permits@potatocity.gov</td>
+                            <td>9:00 AM - 4:00 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Quick Contact Options -->
+            <section class="info-section">
+                <h2>⚡ Quick Contact Options</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">💬</div>
+                        <h4 style="color: white; margin-bottom: 0.5rem;">Live Chat</h4>
+                        <p style="color: rgba(255,255,255,0.9);">Available on our website<br>Monday-Friday 9AM-5PM</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">📱</div>
+                        <h4 style="color: white; margin-bottom: 0.5rem;">Text Alerts</h4>
+                        <p style="color: rgba(255,255,255,0.9);">Sign up for city updates<br>Text POTATO to 12345</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">📍</div>
+                        <h4 style="color: white; margin-bottom: 0.5rem;">Visit Us</h4>
+                        <p style="color: rgba(255,255,255,0.9);">Walk-ins welcome<br>Ground level entrance</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Social Media & Feedback -->
+            <section class="card">
+                <h3>🌐 Connect With Us</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                    <div style="background: rgba(33, 150, 243, 0.1); padding: 1.5rem; border-radius: 15px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📘</div>
+                        <h4 style="color: #2c5530;">Facebook</h4>
+                        <p>@PotatoCityOfficial</p>
+                    </div>
+                    <div style="background: rgba(29, 161, 242, 0.1); padding: 1.5rem; border-radius: 15px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🐦</div>
+                        <h4 style="color: #2c5530;">Twitter</h4>
+                        <p>@PotatoCity_PC</p>
+                    </div>
+                    <div style="background: rgba(225, 48, 108, 0.1); padding: 1.5rem; border-radius: 15px; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📷</div>
+                        <h4 style="color: #2c5530;">Instagram</h4>
+                        <p>@PotatoCityLife</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Navigation Links -->
+            <section class="nav-links">
+                <a href="./index.html">📰 Back to News</a>
+                <a href="./information.html">📖 Learn more about our city</a>
+                <a href="./prices.html">💰 Check Local Prices</a>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

@@ -1,20 +1,21 @@
 # Potato City Website
 
-Um site simples criado para demonstrar conceitos fundamentais de HTML.
+Um site simples criado para demonstrar conceitos fundamentais de HTML e design moderno com CSS.
 
 ## 📋 Descrição
 
-Site temático sobre uma cidade fictícia de batatas, desenvolvido como exercício acadêmico para praticar estruturação de páginas HTML com diferentes elementos.
+Site temático sobre uma cidade fictícia de batatas, desenvolvido como exercício acadêmico para praticar estruturação de páginas HTML e implementação de CSS moderno com layout responsivo.
 
 ## 🌐 Páginas
 
-1. **Home** (`index.html`) - Página inicial com notícias
-2. **Information** (`information.html`) - Informações sobre a cidade  
-3. **Prices** (`prices.html`) - Tabelas de preços e serviços
-4. **Contact** (`contact.html`) - Formulário de contato
+1. **Home** (`index.html`) - Página inicial com notícias da cidade
+2. **Information** (`information.html`) - Informações sobre distritos e atividades
+3. **Prices** (`prices.html`) - Tabelas de preços do mercado e serviços municipais
+4. **Contact** (`contact.html`) - Formulário de contato e informações da prefeitura
 
 ## ✨ Funcionalidades Implementadas
 
+### HTML
 - Títulos e parágrafos
 - Listas ordenadas e não ordenadas  
 - Tabelas estruturadas
@@ -23,6 +24,14 @@ Site temático sobre uma cidade fictícia de batatas, desenvolvido como exercíc
 - Imagens e links
 - Favicon personalizado
 
+### CSS Moderno
+- Layout responsivo com flexbox e CSS grid
+- Header fixo com navegação horizontal
+- Cards com efeitos de hover e sombras
+- Design responsivo para mobile, tablet e desktop
+- Animações e transições suaves
+- Formulários e tabelas estilizados
+
 ## 👥 Colaboradores
 
 - **Marcos Moreira**
@@ -30,7 +39,7 @@ Site temático sobre uma cidade fictícia de batatas, desenvolvido como exercíc
 
 ## 📚 Contexto Acadêmico
 
-Projeto desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas - FATEC.
+Projeto desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas - FATEC. O projeto evoluiu de conceitos básicos de HTML para implementação de CSS moderno com layout responsivo usando flexbox e CSS grid.
 
 ---
 
