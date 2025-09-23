@@ -31,6 +31,8 @@ Site temático sobre uma cidade fictícia de batatas, desenvolvido como exercíc
 - Design responsivo para mobile, tablet e desktop
 - Animações e transições suaves
 - Formulários e tabelas estilizados
+- Menu hambúrguer para dispositivos móveis
+- 4 breakpoints responsivos (CSS puro, sem JavaScript)
 
 ## 👥 Colaboradores
 
