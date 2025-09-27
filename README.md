@@ -41,6 +41,8 @@ Site temático sobre uma cidade fictícia de batatas, desenvolvido como exercíc
 - Modal para ampliar imagens
 - Animações de scroll e smooth navigation
 - Feedback visual para interações do usuário
+- Menu hambúrguer para dispositivos móveis
+- 4 breakpoints responsivos (CSS puro, sem JavaScript)
 
 ## 👥 Colaboradores
 
